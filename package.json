@@ -1,0 +1,27 @@
+{
+  "name": "github-organization-stats",
+  "description": "Get github organization statistics (number of active public/private repos, contributors, commits, additions, deletions) in a period.",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "@octokit/rest": "^18.0.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yilunzhang/github-organization-stats.git"
+  },
+  "keywords": [
+    "GitHub",
+    "organization",
+    "stats",
+    "statistics",
+    "insights"
+  ],
+  "author": "Yilun Zhang",
+  "license": "Apache-2.0"
+}
